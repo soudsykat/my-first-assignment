@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
 
 .banner-container{
-    background-image: url("../B10A1-Challenge-Begins-main/assets/Hero-bg.png");
+    background-image: url("/assets/Hero-bg.png");
     height: 650px;
     width: 95%;
     margin: auto;
@@ -19,6 +19,50 @@
 .heading-text{
     color: rgb(13, 19, 33);
 font-family: Azeret Mono;
-font-size: 48px;
+font-size: 40px;
 font-weight: 800;
+}
+.discription-text{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+}
+.Contact-button{
+    padding: 15px 30px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    ;
+}
+.development-container{
+    height: 400px;
+    width: 70%;
+    margin: auto;
+    background: rgba(13, 19, 33, 0.02);
+    margin-top: 80px;
+    
+}
+.development-content{
+    text-align: center;
+    padding: 50px;
+}
+.text-content{
+    height: auto;
+    width: 450px;
+    display: inline-block;
+    position: relative;
+    padding: 50px;
+
+}
+.service-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    margin: 20px 50px;
+    border-radius: 5px;
+}
+.learn-button{
+    padding: 12px 18px;
 }
