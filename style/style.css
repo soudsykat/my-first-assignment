@@ -161,3 +161,21 @@ font-weight: 400;
 background: rgb(255, 255, 255);
 padding: 17px 20px 17px 20px;
 }
+.footer-content{
+    width: 70%;
+    
+height: 100px;
+border-radius: 16px;
+
+display: flex;
+justify-content: space-between;
+margin: auto;
+align-items: center;
+}
+.style-content{
+    width: 50%;
+height: 36px;
+}
+.footer-section{
+    background: rgba(13, 19, 33, 0.03);
+}
