@@ -109,17 +109,19 @@ font-weight: 400;
 }
 .support-container{
     background-image: url(../assets/handshake.jpg);
-    width: 1044px;
-    height: 100%;
+    width: 70%;
+    height: 200px !important;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 300px 48px;
-    margin-top: 200px;
+    /* padding: 300px 48px; */
+    /* margin-top: 200px; */
+    padding: 50px 48px;
+    object-fit: cover;
+    margin: 100px auto;
 
-    
-
+    background-position: center;
 }
 .support-content{
     color: white;
