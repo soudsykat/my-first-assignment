@@ -108,13 +108,14 @@ font-weight: 400;
 }
 .support-container{
     background-image: url(../assets/handshake.jpg);
-    /* width: 1044px;
-    height: 160px;
+    width: 1044px;
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 64px 48px 64px 48px; */
+    padding: 300px 48px;
+    margin-top: 200px;
 
     
 
@@ -127,4 +128,22 @@ font-weight: 400;
 }
 .form-content{
     text-align: center;
+}
+.suggest-content{
+    padding: 19px 20px 19px 20px;
+    border-radius: 16px;
+background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)
+}
+.ispiration-heading{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 32px;
+font-weight: 800;
+
+}
+.inspiration-discription{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
 }
